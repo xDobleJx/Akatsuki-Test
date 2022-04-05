@@ -1,71 +1,26 @@
 <html>
     <title>Test</title>
     <head>
-        <link href=Test.CSS rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href=Test.css>
+        <script src="Test.js"></script>
     </head>
     <body>
         <img class="Argazkia" src="Akatsuki.png">
-        <input class="galdera1" id="1" placeholder="Nor da perstonai hau?">
-        <input class="galdera2" id="2" placeholder="Nor da perstonai hau?">
-        <input class="galdera3" id="3" placeholder="Nor da perstonai hau?">
-        <input class="galdera4" id="4" placeholder="Nor da perstonai hau?">
-        <input class="galdera5" id="5" placeholder="Nor da perstonai hau?">
-        <input class="galdera6" id="6" placeholder="Nor da perstonai hau?">
-        <input class="galdera7" id="7" placeholder="Nor da perstonai hau?">
-        <input class="galdera8" id="8" placeholder="Nor da perstonai hau?">
-        <input class="galdera9" id="9" placeholder="Nor da perstonai hau?">
-        <input class="galdera10" id="10" placeholder="Nor da perstonai hau?">
+        <input class="galdera1" id="0" placeholder="Nor da perstonai hau?">
+        <input class="galdera2" id="1" placeholder="Nor da perstonai hau?">
+        <input class="galdera3" id="2" placeholder="Nor da perstonai hau?">
+        <input class="galdera4" id="3" placeholder="Nor da perstonai hau?">
+        <input class="galdera5" id="4" placeholder="Nor da perstonai hau?">
+        <input class="galdera6" id="5" placeholder="Nor da perstonai hau?">
+        <input class="galdera7" id="6" placeholder="Nor da perstonai hau?">
+        <input class="galdera8" id="7" placeholder="Nor da perstonai hau?">
+        <input class="galdera9" id="8" placeholder="Nor da perstonai hau?">
+        <input class="galdera10" id="9" placeholder="Nor da perstonai hau?">
         <button class="button" type="Button" onclick="egiaztatu()">Egiaztatu</button>     
         
         <div class="divgrandote" id="grandote" >
             <div class="divchikito" id="resultados">Resultado</div>
         </div>
-
-    <script>
-    
-
-        function egiaztatu()
-        {     
-            let Respuestas= 0;
-            var A= document.getElementById("1").value;
-            var B= document.getElementById("2").value;
-            var C= document.getElementById("3").value;
-            var D= document.getElementById("4").value;
-            var E= document.getElementById("5").value;
-            var F= document.getElementById("6").value;
-            var G= document.getElementById("7").value;
-            var H= document.getElementById("8").value;
-            var I= document.getElementById("9").value;
-            var J= document.getElementById("10").value;
-             
-            if (A== "Itachi") {Respuestas= Respuestas+1; document.getElementById("1").style.borderColor="#008000";}
-            if (B== "Kisame") {Respuestas= Respuestas+1; document.getElementById("2").style.borderColor="#008000";} 
-            if (C== "Tobi") {Respuestas= Respuestas+1; document.getElementById("3").style.borderColor="#008000";} 
-            if (D== "Zetsu") {Respuestas= Respuestas+1; document.getElementById("4").style.borderColor="#008000";} 
-            if (E== "Hidan") {Respuestas= Respuestas+1; document.getElementById("5").style.borderColor="#008000";} 
-            if (F== "Kakuzu") {Respuestas= Respuestas+1; document.getElementById("6").style.borderColor="#008000";} 
-            if (G== "Konan") {Respuestas= Respuestas+1; document.getElementById("7").style.borderColor="#008000";} 
-            if (H== "Sasori") {Respuestas= Respuestas+1; document.getElementById("8").style.borderColor="#008000";}         
-            if (I== "Deidara") {Respuestas= Respuestas+1; document.getElementById("9").style.borderColor="#008000";} 
-            if (J== "Pain") {Respuestas= Respuestas+1; document.getElementById("10").style.borderColor="#008000";} 
-
-            if (A!= "Itachi") {document.getElementById("1").style.borderColor="ff0000";}
-            if (B!= "Kisame") {document.getElementById("2").style.borderColor="ff0000";} 
-            if (C!= "Tobi") {document.getElementById("3").style.borderColor="ff0000";} 
-            if (D!= "Zetsu") {document.getElementById("4").style.borderColor="ff0000";} 
-            if (E!= "Hidan") {document.getElementById("5").style.borderColor="ff0000";} 
-            if (F!= "Kakuzu") {document.getElementById("6").style.borderColor="ff0000";} 
-            if (G!= "Konan") {document.getElementById("7").style.borderColor="ff0000";} 
-            if (H!= "Sasori") {document.getElementById("8").style.borderColor="ff0000";}         
-            if (I!= "Deidara") {document.getElementById("9").style.borderColor="ff0000";} 
-            if (J!= "Pain") {document.getElementById("10").style.borderColor="ff0000";} 
-
-            if(Respuestas==10){document.getElementById("grandote").style.borderColor="#008000"}
-            document.getElementById("resultados").innerHTML=Respuestas
-            console.log(Respuestas);
-    
-        }
-    </script>
     
     </body>
     
